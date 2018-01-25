@@ -30,3 +30,5 @@ footer > aside:nth-child(5) { background: #555; }
 footer > aside:nth-child(6) { background: #444; }
 footer > aside > h3 { font-size: 1.5rem; margin: 0 0 0.5em 0; }
 footer > aside > p { font-size: 1.1rem; }
+
+.bg { background: #eee; }
