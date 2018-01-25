@@ -19,3 +19,14 @@ main { background: #fff; max-width: 1020px;	margin: 0 auto; padding: 2em;	}
 main > section { padding: 1em; }
 main > section > h2 { font-size: 2.0rem; margin: 0 0 0.5em 0; }
 main > section > p { font-size: 1.4rem; }
+
+footer { display: flex; flex-flow: row wrap; }
+footer > aside { flex: 1 10em; padding: 1em; color: #fff; }
+footer > aside:nth-child(1) { background: #999; }
+footer > aside:nth-child(2) { background: #888; }
+footer > aside:nth-child(3) { background: #777; }
+footer > aside:nth-child(4) { background: #666; }
+footer > aside:nth-child(5) { background: #555; }
+footer > aside:nth-child(6) { background: #444; }
+footer > aside > h3 { font-size: 1.5rem; margin: 0 0 0.5em 0; }
+footer > aside > p { font-size: 1.1rem; }
