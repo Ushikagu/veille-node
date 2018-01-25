@@ -5,3 +5,12 @@ a { text-decoration: none; }
 header { padding: 2em;}
 header > h1 {}
 header > h1 > a { color: #fff; font-size: 3.6rem; text-transform: uppercase; }
+
+nav { background: #000; top: 0; position: -webkit-sticky; position: sticky; }
+nav > ul { display: flex; justify-content: space-around; flex-wrap: wrap; list-style: none; }
+nav > ul > li { padding: 1em; flex: 1; text-align: center; }
+nav > ul > li:hover { background: #333; transition: all 0.5s ease; }
+nav > ul > li > a { color: #fff; text-transform: uppercase; }
+nav > ul > li > a > span {}
+nav > ul > li > a > i { color: #888; }
+nav > ul > li > a > i:hover { color: deeppink; }
