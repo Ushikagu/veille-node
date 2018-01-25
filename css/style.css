@@ -36,3 +36,12 @@ footer > aside > p { font-size: 1.1rem; }
 @media only screen and (max-width: 50em) { 
   h2, h3 { color: deeppink; } 
 }
+
+@media only screen and (max-width: 30em) { 
+  h2 { color: blue; }
+  nav > ul > li > a > i { color: #fff; }
+  nav > ul > li > a > span { display: none; }
+  header > h1 { text-align: center; }
+  header > h1 > a { font-size: 2.8rem; text-align: center; }
+  footer > aside { flex: 1 1 auto; flex-basis: 100%; }
+}
